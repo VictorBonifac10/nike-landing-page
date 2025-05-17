@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike Landing Page</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
 
@@ -20,12 +21,12 @@
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis maiores eaque vero possimus cupiditate saepe deleniti laborum neque porro dolorum, perspiciatis aspernatur commodi quis minus explicabo nobis maxime quam laudantium.</p>
 
-        <a href="#" class="botao-carrinho">Adicionar ao carrinho</a>
+        <a href="#" onclick="mudarVisual()" class="botao-carrinho">Adicionar ao carrinho</a>
 
         <div class="caixa-botoes">
-            <div class="botoes verde"></div>
-            <div class="botoes rosa"></div>
-            <div class="botoes azul"></div>
+            <div onclick="mudarVisual('#a3be52' , 'imgs/nike1.png')" class="botoes verde"></div>
+            <div onclick="mudarVisual('#ff9eb5' , 'imgs/nike3.png')" class="botoes rosa"></div>
+            <div  onclick="mudarVisual('#58cced' , 'imgs/nike2.png')"class="botoes azul"></div>
         </div>
 
     </div>
@@ -35,6 +36,7 @@
     </div>
 
 </div>
-    
+
 </body>
+<script src="script.js"></script>
 </html>

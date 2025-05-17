@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 1500px){
+
+    body{
+        overflow: visible;
+        padding: 20px 30px;
+    }
+
+    body::before{
+        content: none;
+    }
+
+    body::after{
+        display: none;
+    }
+
+    .caixa-principal{  
+        display: block;
+        text-align: center;
+    }
+
+    .caixa-content{
+        margin: 0px auto;
+    }
+    .img-tenis{
+        margin-top: 90px;
+        width: 500px;
+    }
+
+    .caixa-botoes{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .img-tenis{
+        width: 350px;
+    }
+    
+}
